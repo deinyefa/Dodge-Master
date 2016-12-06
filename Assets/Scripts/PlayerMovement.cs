@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour {
     private Rigidbody2D rigidBody;
 
 	void Awake () {
+        transform.position = new Vector3(0, -4.32f, 0);
         rigidBody = GetComponent<Rigidbody2D>();
 	}
 
